@@ -1,14 +1,18 @@
-import code from './assets/CodeXperience.svg'
-import '/index.css'
+import code from './assets/CodeXperience.svg';
+import '/index.css';
 
 function App() {
 
   return (
-    <>
-      <div className='flex h-lvh max-h-screen items-center justify-center bg-black'>
-        <img src={code} alt="Logo codeXperience" className='w-[380px] md:w-[800px]' />
-      </div>
-    </>
+    <div className='
+    h-screen 
+    flex 
+    items-center 
+    justify-center
+    bg-black'
+      style={{ paddingTop: 'env(safe-area-inset-top)', paddingBottom: 'env(safe-area-inset-bottom)' }}>
+      <img src={code} alt="Logo codeXperience" className='w-[380px] md:w-[800px]' />
+    </div>
   )
 }
 
