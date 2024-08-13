@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className=' flex h-screen max-h-screen items-center justify-center bg-black'>
+      <div className='flex h-lvh max-h-screen items-center justify-center bg-black'>
         <img src={code} alt="Logo codeXperience" className='w-[380px] md:w-[800px]' />
       </div>
     </>
