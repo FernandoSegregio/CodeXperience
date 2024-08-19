@@ -23,7 +23,7 @@ export default function Location() {
               height="600"
               style={{ border: 0 }}
               loading="lazy"
-              className='absolute'
+              className='absolute rounded-xl'
               referrerPolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
