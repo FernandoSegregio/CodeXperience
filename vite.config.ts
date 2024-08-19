@@ -1,10 +1,12 @@
 import { VitePWA } from 'vite-plugin-pwa';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import svgr from 'vite-plugin-svgr';
+import path from 'path';
 
 export default defineConfig({
 
-  plugins: [react(), VitePWA({
+  plugins: [react(), svgr(), VitePWA({
     registerType: 'autoUpdate',
 
     pwaAssets: {
@@ -66,4 +68,10 @@ export default defineConfig({
       type: 'module',
     },
   })],
+  resolve: {
+    alias: {
+      '@assets': path.resolve('src/assets'),
+      '@components': path.resolve('src/components'),
+    },
+  },
 });
