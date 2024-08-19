@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-lato;
+}
+
+@layer utilities {
+  .zoom-50 {
+    zoom: 0.5;
+  }
+  .zoom-75 {
+    zoom: 0.75;
+  }
+  .zoom-90 {
+    zoom: 0.9;
+  }
+  .zoom-100 {
+    zoom: 1;
+  }
+  .zoom-125 {
+    zoom: 1.25;
+  }
+  .zoom-150 {
+    zoom: 1.5;
+  }
+  .zoom-200 {
+    zoom: 2;
+  }
+}
+
