@@ -10,6 +10,9 @@ export default {
         'safe-top': 'env(safe-area-inset-top)',
         'safe-bottom': 'env(safe-area-inset-bottom)',
       },
+      fontFamily: {
+        lato: ['Lato', 'sans-serif'], 
+      },
     },
   },
   plugins: [],
