@@ -37,27 +37,45 @@ export const Countdown: React.FC = () => {
     return () => clearInterval(timer);
   }, []);
 
+
+
+
+
+
+
   return (
-    <div className="absolute flex space-x-4 p-4">
-      <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
-        <span className="text-5xl font-bold">{formatNumber(timeLeft.months)}</span>
-        <span>{timeLeft.months !== 1 ? 'Meses' : 'Mês'}</span>
-      </div>
-      <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
-        <span className="text-5xl font-bold">{formatNumber(timeLeft.days)}</span>
-        <span>Dia{timeLeft.days !== 1 ? 's' : ''}</span>
-      </div>
-      <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
-        <span className="text-5xl font-bold">{formatNumber(timeLeft.hours)}</span>
-        <span>Hora{timeLeft.hours !== 1 ? 's' : ''}</span>
-      </div>
-      <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
-        <span className="text-5xl font-bold">{formatNumber(timeLeft.minutes)}</span>
-        <span>Minuto{timeLeft.minutes !== 1 ? 's' : ''}</span>
-      </div>
-      <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
-        <span className="text-5xl font-bold">{formatNumber(timeLeft.seconds)}</span>
-        <span>Segundo{timeLeft.seconds !== 1 ? 's' : ''}</span>
+    <div className="relative h-96 md:h-64 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 overflow-hidden">
+      <div className="absolute inset-0 bg-white bg-opacity-20"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-pulse opacity-70"></div>
+      <div className="relative z-10 flex items-center justify-center h-full text-white">
+        <div className="absolute flex space-x-4 p-4">
+          <div className='flex flex-col gap-4 md:gap-0 md:space-x-4 md:flex-row'>
+            <div className='flex space-x-4'>
+              <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
+                <span className="text-5xl font-bold">{formatNumber(timeLeft.months)}</span>
+                <span>{timeLeft.months !== 1 ? 'Meses' : 'Mês'}</span>
+              </div>
+              <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
+                <span className="text-5xl font-bold">{formatNumber(timeLeft.days)}</span>
+                <span>Dia{timeLeft.days !== 1 ? 's' : ''}</span>
+              </div>
+            </div>
+            <div className='flex space-x-4'>
+              <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
+                <span className="text-5xl font-bold">{formatNumber(timeLeft.hours)}</span>
+                <span>Hora{timeLeft.hours !== 1 ? 's' : ''}</span>
+              </div>
+              <div className="flex flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36">
+                <span className="text-5xl font-bold">{formatNumber(timeLeft.minutes)}</span>
+                <span>Minuto{timeLeft.minutes !== 1 ? 's' : ''}</span>
+              </div>
+            </div>
+          </div>
+          <div className="flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36 hidden md:flex">
+            <span className="text-5xl font-bold">{formatNumber(timeLeft.seconds)}</span>
+            <span>Segundo{timeLeft.seconds !== 1 ? 's' : ''}</span>
+          </div>
+        </div>
       </div>
     </div>
   );
