@@ -3,7 +3,9 @@ import logoLocation2 from '@assets/uniacademiaPredios.jpg'
 
 export default function Location() {
   return (
-    <div className="bg-black flex flex-col items-center justify-center py-12 md:py-20">
+    <div className="bg-black flex flex-col items-center justify-center py-12 md:py-20"
+    id='local'
+    >
       <h3 className="text-white md:text-6xl pt-2">O CodeXperience acontece na Uniacademia</h3>
       <h3 className="text-white md:text-5xl p-2 pb-8 md:pb-20">No coração de Juiz de Fora</h3>
       <div className='flex flex-col md:flex-row gap-12 md:gap-48'>
