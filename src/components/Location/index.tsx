@@ -19,13 +19,13 @@ export default function Location() {
         </div>
 
         <div className='md:w-1/2 flex flex-col items-center'>
-          <div className='bg-[#be73ed] w-64 h-64 md:px-16 md:pt-20 rounded-3xl relative md:w-[400px] md:h-[600px]'>
+          <div className='bg-[#be73ed] w-64 h-64 md:px-16 md:pt-20 rounded-3xl relative md:w-[400px] md:h-[480px]'>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.456636805489!2d-43.35566702395272!3d-21.762581180076804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b61e5bb4d59%3A0xab281c69be317217!2sCol%C3%A9gio%20Cristo%20Redentor%20-%20Academia%20de%20Com%C3%A9rcio!5e0!3m2!1spt-BR!2sbr!4v1724085130301!5m2!1spt-BR!2sbr"
               width="400"
               height="700"
               style={{ border: 0 }}
               loading="lazy"
-              className='w-56 h-56 absolute rounded-xl -top-4 left-4 md:w-[400px] md:h-[700px] md:top-16 md:left-20'
+              className='w-56 h-56 absolute rounded-xl -top-4 left-4 md:w-[400px] md:h-[530px] md:top-16 md:left-20'
               referrerPolicy="no-referrer-when-downgrade">
             </iframe>
           </div>
