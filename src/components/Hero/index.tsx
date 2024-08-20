@@ -7,7 +7,7 @@ import Header from '@components/Header';
 
 export default function Hero() {
   return (
-    <div id='home' className="w-full h-[30rem] relative flex flex-col items-center justify-center md:h-[39rem]">
+    <div id='home' className="w-full h-[39rem] relative flex flex-col items-center justify-center">
       <img src={logoCode} className='absolute md:top-20 left-50 md:h-[600px] z-10' />
       <Header />
       <div className='bg-black w-full h-full absolute opacity-60'></div>
