@@ -53,10 +53,10 @@ export default function Header() {
                           scrollToSection(session.name_section.toLowerCase())
                           close()
                         }}
-                          className={`flex flex-col items-center px-4 py-2 rounded-lg text-white min-w-48 hover:bg-[#be73ed] transition duration-1000 ease-in-out`}
+                          className={`flex flex-col items-center px-4 py-2 rounded-lg text-white min-w-48 hover:bg-[#be73ed] transition duration-1000 ease-in-out cursor-pointer`}
                           key={session.id}
                         >
-                          <p className='flex items-center font-bold text-white cursor-pointer'>
+                          <p className='flex items-center font-bold text-white'>
                             {session.name_section.toUpperCase()}
                           </p>
                         </li>
