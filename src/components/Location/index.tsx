@@ -6,15 +6,15 @@ export default function Location() {
     <div className="bg-black flex flex-col items-center justify-center py-12 md:py-20"
     id='local'
     >
-      <h3 className="text-white md:text-6xl pt-2">O CodeXperience acontece na Uniacademia</h3>
-      <h3 className="text-white md:text-5xl p-2 pb-8 md:pb-20">No coração de Juiz de Fora</h3>
+      <h3 className="text-white md:text-6xl pt-2">O CodeXperience acontece na UniAcademia,</h3>
+      <h3 className="text-white md:text-5xl p-2 pb-8 md:pb-20">no coração de Juiz de Fora!</h3>
       <div className='flex flex-col md:flex-row gap-12 md:gap-48'>
         <div className='md:w-1/2 flex flex-col gap-12 items-center'>
           <div className='bg-[#0af40c] px-4 w-64 py-28 rounded-3xl relative md:w-96 md:h-96'>
             <img src={logoLocation1} className='w-96 rounded-3xl absolute top-6 md:right-24 md:top-16' />
           </div>
           <div className='bg-[#75fbfd] px-4 w-64 py-28 rounded-3xl relative md:w-96 md:h-96'>
-            <img src={logoLocation2} className='w-96 rounded-3xl absolute top-9 md:left-24 md:top-16' />
+            <img src={logoLocation2} className='w-96 rounded-3xl absolute top-9 -left-4 md:left-24 md:top-16' />
           </div>
         </div>
 
