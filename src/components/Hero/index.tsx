@@ -13,8 +13,7 @@ export default function Hero() {
       <Header />
       <div className='bg-black w-full h-full absolute opacity-60'></div>
       <img
-        src={code}  // Usado como fallback
-        srcSet="src/assets/code2023.webp?t=172 600w, src/assets/code2023.webp?t=172 1200w, src/assets/code2023.webp?t=172 1800w"
+        src={code}
         sizes="(max-width: 600px) 100vw, 50vw"
         alt="Descrição da imagem"
         className="object-cover w-full h-full"
