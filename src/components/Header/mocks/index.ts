@@ -1,32 +1,32 @@
 type SecttionType = {
-  name_section: string
-  id: number
+  name_section: string;
+  id: string;
 }
 
 
 export const sectionsLP: SecttionType[] = [
   {
-    name_section: 'home',
-    id: 1,
+    name_section: 'O Evento',
+    id: '1',
   },
   {
-    name_section: 'O Evento',
-    id: 2,
+    name_section: 'Inspire',
+    id: '2',
   },
   {
     name_section: 'Inscrições',
-    id: 3,
+    id: '3',
   },
-  {
-    name_section: 'Programação',
-    id: 4,
-  },
+  // {
+  //   name_section: 'Programação',
+  //   id: '4',
+  // },
   {
     name_section: 'Local',
-    id: 5,
+    id: '5',
   },
   {
-    name_section: 'Eventos parceiros',
-    id: 6,
+    name_section: 'Parceiros',
+    id: '6',
   },
 ]

@@ -1,11 +1,10 @@
 
 
-import logoCode from '@assets/logo_code.png'
+import logoCode from '@assets/logo_code.webp'
+import logoInsta from '@assets/insta.svg'
+import logoLinkedin from '@assets/linkedin.svg'
 
-import logoInsta from '@assets/instagram.png'
-import logoLinkedin from '@assets/linkedin.png'
-
-export function Footer() {
+export default function Footer() {
 
   const URL_LINKEDIN = 'https://www.linkedin.com/company/code-experience/'
   const URL_INSTAGRAM = 'https://www.instagram.com/codexperiencezonadamata/'
