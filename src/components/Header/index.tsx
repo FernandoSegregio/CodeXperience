@@ -50,7 +50,7 @@ export default function Header() {
                       return (
                         <li onClick={(e) => {
                           e.preventDefault()
-                          scrollToSection(session.name_section.toLowerCase())
+                          scrollToSection(session.id)
                           close()
                         }}
                           className={`flex flex-col items-center px-4 py-2 rounded-lg text-white min-w-48 hover:bg-[#be73ed] transition duration-1000 ease-in-out cursor-pointer`}
@@ -96,7 +96,7 @@ export default function Header() {
                   {sectionsLP.map((session) => (
                     <li onClick={(e) => {
                       e.preventDefault()
-                      scrollToSection(session.name_section.toLowerCase())
+                      scrollToSection(session.id)
                       close()
                     }}
                       className='flex justify-start items-center ps-6 py-4 h-16 transition duration-1000 ease-in-out' key={session.id}>

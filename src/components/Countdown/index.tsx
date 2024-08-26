@@ -8,7 +8,7 @@ interface TimeLeft {
   seconds: number;
 }
 
-export const Countdown: React.FC = () => {
+const Countdown: React.FC = () => {
   const calculateTimeLeft = (): TimeLeft => {
     const eventDate = new Date('2024-11-09T12:00:00'); // Data do evento
     const now = new Date();
@@ -36,12 +36,6 @@ export const Countdown: React.FC = () => {
 
     return () => clearInterval(timer);
   }, []);
-
-
-
-
-
-
 
   return (
     <div className="relative h-96 md:h-64 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 overflow-hidden">
@@ -80,3 +74,5 @@ export const Countdown: React.FC = () => {
     </div>
   );
 };
+
+export default Countdown;
