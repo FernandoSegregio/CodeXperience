@@ -43,7 +43,7 @@ export default function Talks() {
       <h3 className="text-white text-center px-2 text-lg sm:text-4xl max-w-72  md:max-w-5xl">Deem só uma olhada nas feras que compartilharam conhecimento com a gente em 2023!</h3>
       <Carousel />
       <h3 className="leading-loose text-white text-center max-w-72 px-2 text-xl sm:text-4xl md:max-w-4xl">Tem interesse em compartilhe com a gente no <span className='font-extrabold'>CodeXperience</span> 2024?</h3>
-      <a className="text-center rounded-xl text-black p-2 px-6 sm:p-4 md:text-3xl bg-[#0af40c] hover:bg-[#be73ed] hover:text-white transition duration-1000 ease-in-out sm:-mt-4"
+      <a className="text-center rounded-xl text-black py-4 px-6 text-xl md:text-3xl bg-[#0af40c] hover:bg-[#be73ed] hover:text-white transition duration-1000 ease-in-out sm:-mt-4"
         href={URL_PAPER} target="_blank" rel="noopener noreferrer"
       >Chega mais</a>
       <div className='hidden my-10 h-2/3 max-w-72 items-center justify-center gap-16 flex-wrap md:max-w-7xl'>

@@ -24,7 +24,7 @@ export default function Pass() {
           </ul>
 
         </div>
-        <a className="z-10 text-center rounded-xl text-black p-2 bg-[#0af40c] hover:bg-[#75fbfd] transition duration-1000 ease-in-out sm:p-4 md:text-3xl"
+        <a className="z-10 text-center rounded-xl text-black py-4 px-6 text-xl bg-[#0af40c] hover:bg-[#75fbfd] transition duration-1000 ease-in-out sm:p-4 md:text-3xl"
           href="https://www.sympla.com.br/evento/codexperience-zona-da-mata-2024/2600648" target="_blank" rel="noopener noreferrer"
 
         >Faça já sua inscrição</a>
