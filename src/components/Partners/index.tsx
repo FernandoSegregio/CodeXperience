@@ -40,9 +40,9 @@ export default function Partners() {
           </div>
           <div className="w-full h-56 rounded-3xl flex items-center border">
             <p className="text-[#7fa7a8] -rotate-90 w-48 h-[88px] -ml-5 flex justify-center items-center rounded-3xl text-xl md:text-3xl  font-bold">PARCEIROS</p>
-            <div className="w-full flex flex-col justify-start py-2 sm:items-center sm:justify-center sm:flex-row sm:gap-8 sm:w-full sm:-ml-8 sm: items-center">
+            <div className="w-full flex flex-col justify-start items-start py-8 sm:items-center sm:justify-center sm:flex-row sm:gap-8 sm:w-full sm:-ml-8">
               <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={devops}>
-                <img src={devOps} alt="logo UniAcademia patrocinador platina" width={150} className="sm:w-[300px] sm:ms-0" />
+                <img src={devOps} alt="logo UniAcademia patrocinador platina" width={150} className="mt-5 sm:w-[300px] sm:ms-0 sm:mt-0" />
               </a>
               <a className='cursor-pointer' href={tech} target='_blank' rel="noopener noreferrer">
                 <img src={techHub} alt="logo Runeus patrocinador platina" width={160} className="sm:w-[350px] sm:pb-5" />
