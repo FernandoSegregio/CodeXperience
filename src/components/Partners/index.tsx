@@ -1,8 +1,13 @@
 import rubeus from '@assets/rubeus.webp'
 import uniAcademia from '@assets/uniLogo.webp'
+import devOps from '@assets/devopsday.webp'
+import techHub from '@assets/tech_hub.webp'
 
 
 export default function Partners() {
+  const devops = "https://devopsdays.org/events/2024-juiz-de-fora/welcome/"
+  const tech = "https://techhubjf.org/"
+
   return (
     <div id='6' className="w-full bg-black py-24 flex flex-col justify-center items-center gap-6 sm:gap-12">
       <h3 className="text-white text-center text-2xl sm:text-5xl">Veja abaixo nossos parceiros</h3>
@@ -29,12 +34,20 @@ export default function Partners() {
             <p className="text-[#75fbfd] -rotate-90 w-48 h-[88px] -ml-14 flex justify-center items-center rounded-3xl ext-xl md:text-4xl  font-bold">PRATA</p>
           </div>
         </div>
-        <div className="hidden flex-col md:flex-row gap-8 md:gap-16 max-w-7xl w-full">
-          <div className="md:w-1/2 h-56 rounded-3xl flex items-center border">
+        <div className="flex-col md:flex-row gap-8 md:gap-16 max-w-7xl w-full">
+          <div className="hidden md:w-1/2 h-56 rounded-3xl items-center border">
             <p className="text-[#5b8277] -rotate-90 w-48 h-[88px] -ml-14 flex justify-center items-center rounded-3xl ext-xl md:text-4xl  font-bold">BRONZE</p>
           </div>
-          <div className="md:w-1/2 h-56 rounded-3xl flex items-center border">
-            <p className="text-[#7fa7a8] -rotate-90 w-48 h-[88px] -ml-14 flex justify-center items-center rounded-3xl text-xl md:text-3xl  font-bold">PARCEIROS</p>
+          <div className="w-full h-56 rounded-3xl flex items-center border">
+            <p className="text-[#7fa7a8] -rotate-90 w-48 h-[88px] -ml-5 flex justify-center items-center rounded-3xl text-xl md:text-3xl  font-bold">PARCEIROS</p>
+            <div className="w-full flex flex-col justify-start py-2 sm:items-center sm:justify-center sm:flex-row sm:gap-8 sm:w-full sm:-ml-8 sm: items-center">
+              <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={devops}>
+                <img src={devOps} alt="logo UniAcademia patrocinador platina" width={150} className="sm:w-[300px] sm:ms-0" />
+              </a>
+              <a className='cursor-pointer' href={tech} target='_blank' rel="noopener noreferrer">
+                <img src={techHub} alt="logo Runeus patrocinador platina" width={160} className="sm:w-[350px] sm:pb-5" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
