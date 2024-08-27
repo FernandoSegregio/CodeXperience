@@ -6,6 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
+  base: '/',
   plugins: [
     react(),
     svgr(),
