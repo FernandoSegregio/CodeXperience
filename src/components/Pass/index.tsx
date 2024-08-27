@@ -7,7 +7,7 @@ export default function Pass() {
       <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-pulse opacity-70"></div>
 
       <div className="md:max-w-7xl max-w-72 w-full flex flex-col items-center justify-center gap-8 md:gap-16 m-auto">
-        <h3 className="z-10 text-white text-center text-2xl sm:text-5xl">O <span className='font-extrabold'>CodeXperience</span> é feito <span className='rounded-xl p-2 text-[#0af40c] font-extrabold'>desenvolvedor</span> pra <span className='rounded-xl p-2 text-[#75fbfd] font-extrabold'>desenvolvedor</span></h3>
+        <h3 className="z-10 text-white text-center text-2xl sm:text-5xl">O <span className='font-extrabold'>CodeXperience</span> é feito <span className='rounded-xl p-2 text-[#0af40c] font-extrabold'>de desenvolvedor</span> para <span className='rounded-xl p-2 text-[#75fbfd] font-extrabold'>desenvolvedor</span></h3>
         <div className='flex w-full justify-evenly flex-col sm:flex-row py-4 sm:py-12'>
           <img src={pass} alt="imagem simulando um ingresso" width={300} className="z-10 animate-kick -rotate-12 sm:w-1/2 sm:pb-5" />
 
