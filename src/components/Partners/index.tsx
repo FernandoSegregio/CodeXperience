@@ -2,6 +2,7 @@ import rubeus from '@assets/rubeus.webp'
 import uniAcademia from '@assets/uniLogo.webp'
 import devOps from '@assets/devopsday.webp'
 import techHub from '@assets/tech_hub.webp'
+import pdfUrl from '../assets/SejaCode2024.pdf'
 
 
 export default function Partners() {
@@ -15,7 +16,7 @@ export default function Partners() {
       <h3 className="text-white text-center text-2xl sm:text-5xl">Veja abaixo nossos parceiros</h3>
       <h3 className="text-white text-center px-2 text-lg max-w-72 sm:text-4xl sm:max-w-7xl">Quer se juntar com quem faz o CodeXperience acontecer?</h3>
       <a className="text-center rounded-xl text-black py-4 px-6 text-xl bg-[#0af40c] hover:bg-[#be73ed] hover:text-white transition duration-1000 ease-in-out sm:p-4 md:text-3xl"
-        href="SejaCode2024.pdf" target="_blank" rel="noopener noreferrer"
+        href={pdfUrl} target="_blank" rel="noopener noreferrer"
       >Patrocine o melhor evento da região</a>
 
       <div className="md:max-w-7xl max-w-72 w-full flex flex-col gap-8 md:gap-16">
