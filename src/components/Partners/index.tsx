@@ -2,7 +2,7 @@ import rubeus from '@assets/rubeus.webp'
 import uniAcademia from '@assets/uniLogo.webp'
 import devOps from '@assets/devopsday.webp'
 import techHub from '@assets/tech_hub.webp'
-import pdfUrl from '@assetsSejaCode2024.pdf'
+import pdfUrl from '@assets/SejaCode2024.pdf'
 
 
 export default function Partners() {
