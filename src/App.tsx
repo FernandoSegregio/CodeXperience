@@ -7,6 +7,7 @@ import Partners from '@components/Partners';
 import Talks from '@components/talks';
 import '/index.css';
 import Pass from '@components/Pass';
+import Parallax from '@components/Parallax';
 
 function App() {
 
@@ -17,12 +18,13 @@ function App() {
       <Hero />
       <Countdown />
       <Talks />
-      <Divider />
+      <Parallax />
       <Location />
-      <Divider />
+      <Divider height={1} />
       <Pass />
-      <Divider />
+      <Divider height={5} />
       <Partners />
+      <Divider height={1} />
       <Footer />
     </div>
   )
