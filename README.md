@@ -70,6 +70,19 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma [issue](http
 5. Abra um pull request da sua branch para a main.
 6. Aguarde aprovação de seu pull request
 
+## Licença
+
+Este projeto está licenciado sob a Licença BSD de 2 Cláusulas.
+
+### Resumo da Licença BSD de 2 Cláusulas
+
+- **Redistribuição e uso:** São permitidos com ou sem modificação, desde que as seguintes condições sejam atendidas:
+  - A redistribuição do código fonte deve manter o aviso de copyright, esta lista de condições e o aviso de isenção de responsabilidade.
+- **Isenção de responsabilidade:** O software é fornecido "como está", sem garantias expressas ou implícitas, incluindo, mas não se limitando às garantias implícitas de comercialização e adequação para um propósito específico. Em nenhum caso o titular dos direitos autorais ou contribuintes serão responsáveis por quaisquer danos decorrentes do uso do software.
+
+Para mais informações, consulte o arquivo [LICENSE](LICENSE).
+
+
 ## 👥 Autores
 
 - **Fernando Segregio** - [LinkedIn](https://www.linkedin.com/in/fernandosegregio)
