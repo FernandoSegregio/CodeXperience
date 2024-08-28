@@ -38,7 +38,7 @@ const images = [
 
 const MultiImageCarousel = () => {
   const slideRef = useRef<HTMLDivElement>(null);
-  const speed = 1.3;
+  const speed = 1.2;
 
   useEffect(() => {
     const slide = slideRef.current;
@@ -65,6 +65,7 @@ const MultiImageCarousel = () => {
 
   return (
     <div className="relative w-full overflow-hidden py-12">
+    
       <div
         ref={slideRef}
         className="flex"
@@ -73,8 +74,9 @@ const MultiImageCarousel = () => {
         {images.concat(images).map((image, index) => (
           <div
             key={index}
-            className="flex-shrink-0"
+            className="relative flex-shrink-0"
           >
+             <div className="absolute inset-0 bg-[#431869] opacity-50"></div>
             <img src={image} alt={`Slide ${index}`} className="object-cover w-[400px] h-[300px]" />
           </div>
         ))}

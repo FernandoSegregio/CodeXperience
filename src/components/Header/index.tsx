@@ -32,18 +32,18 @@ export default function Header() {
 
   return (
     <Disclosure as="nav" className={
-      classNames(scroll ? 'backdrop-blur-sm bg-black/10 sm:bg-transparent transition duration-600 ease-in-out flex justify-end md:justify-center' : 'scroll', 'w-full fixed z-50 top-0')}
+      classNames(scroll ? 'backdrop-blur-sm bg-black/10 sm:bg-transparent transition duration-600 ease-in-out flex justify-end lg:justify-center' : 'scroll', 'w-full fixed z-50 top-0')}
     >
       {({ open, close }) => (
         <>
           <div
           >
-            <div className="flex h-24 items-center justify-end md:justify-center">
+            <div className="flex h-24 items-center justify-end lg:justify-center">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
 
                 </div>
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                   <div className={
                     classNames(scroll ? "backdrop-blur-sm bg-black/10 " : "", "top-4 flex space-x-4 p-2 bg-gray-800 rounded-lg bg-opacity-20 z-10")}>
                     {sectionsLP.map((session) => {
@@ -67,7 +67,7 @@ export default function Header() {
                 </div>
               </div>
 
-              <div className="-mr-2 flex md:hidden">
+              <div className="-mr-2 flex lg:hidden">
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-6 text-gray-400 ">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
@@ -90,7 +90,7 @@ export default function Header() {
             leaveTo="transform opacity-0 scale-95"
           >
 
-            <Disclosure.Panel className="absolute top-0 right-0  w-1/2 h-full md:hidden">
+            <Disclosure.Panel className="absolute top-0 right-0  w-1/2 h-full lg:hidden">
               <div className="space-y-1 h-screen">
                 <ul className='flex flex-col bg-black/80 transition duration-600 ease-in-out w-full h-full pt-3'>
                   {sectionsLP.map((session) => (

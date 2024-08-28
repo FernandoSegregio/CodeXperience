@@ -10,7 +10,7 @@ export default function Footer() {
   const URL_INSTAGRAM = 'https://www.instagram.com/codexperiencezonadamata/'
 
   return (
-    <div className='w-full flex flex-col justify-center items-center pb-12 md:py-24 bg-black text-white gap-4 md:flex-row'>
+    <div className='w-full flex flex-col justify-center items-center pb-12 md:py-24 bg-black text-white gap-4 lg:flex-row'>
 
       <div className='flex flex-col justify-center items-center pb-12 gap-2'>
         <img className='md:w-[400px]' src={logoCode} alt='Logo codeXperience' width={200} />

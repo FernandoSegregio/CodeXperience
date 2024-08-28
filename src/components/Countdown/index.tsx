@@ -65,7 +65,7 @@ const Countdown: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36 hidden md:flex">
+          <div className="flex-col items-center bg-black bg-opacity-10 p-8 rounded-3xl text-white w-36 hidden lg:flex">
             <span className="text-5xl font-bold">{formatNumber(timeLeft.seconds)}</span>
             <span>Segundo{timeLeft.seconds !== 1 ? 's' : ''}</span>
           </div>

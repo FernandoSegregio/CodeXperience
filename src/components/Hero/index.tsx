@@ -7,7 +7,7 @@ export default function Hero() {
     <div id='1' className="w-full h-[39rem] relative flex flex-col items-center justify-center">
       <img
         src={logoCode}
-        className='absolute md:top-20 left-50 md:h-[600px] z-10'
+        className='absolute md:top-20 left-50 md:h-[600px] z-50'
         alt="Logo Code"
       />
       <Header />
