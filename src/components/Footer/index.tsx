@@ -12,7 +12,7 @@ export default function Footer() {
   const URL_DISC = 'https://discord.gg/pv8GgT2T'
 
   return (
-    <div className='w-full flex flex-col justify-around items-center pb-12 md:py-24 bg-black text-white gap-4 lg:flex-row'>
+    <div className='w-full flex flex-col justify-center items-center pb-12 md:py-24 bg-black text-white gap-4 lg:flex-row lg:gap-36'>
 
       <div className='flex flex-col justify-center items-center pb-12 gap-2'>
         <img className='sm:w-[400px]' src={logoCode} alt='Logo codeXperience' width={246} />
