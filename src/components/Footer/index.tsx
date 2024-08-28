@@ -21,7 +21,7 @@ export default function Footer() {
             <img src={logoInsta} alt="instagram codeXperience" width={24} height={24} className='md:w-12' />
           </a>
           <a href={URL_LINKEDIN} target='_blank' rel="noopener noreferrer">
-            <img src={logoLinkedin} alt="logoLinkedin codeXperience" width={24} height={20} className='md:w-14' />
+            <img src={logoLinkedin} alt="logoLinkedin codeXperience" width={28} height={26} className='md:w-14' />
           </a>
           <a href={URL_DISC} target='_blank' rel="noopener noreferrer">
             <img src={logoDisc} alt="logoLinkedin codeXperience" width={24} height={20} className='md:w-12' />
