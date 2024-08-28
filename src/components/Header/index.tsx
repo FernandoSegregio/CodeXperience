@@ -24,11 +24,19 @@ export default function Header() {
   }, [])
 
   const scrollToSection = (sectionId: string) => {
-    const sectionElement = document.getElementById(sectionId)
+    const sectionElement = document.getElementById(sectionId);
+  
     if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      const elementPosition = sectionElement.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - 30;
+  
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
     }
-  }
+  };
+  
 
   return (
     <Disclosure as="nav" className={
