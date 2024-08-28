@@ -2,7 +2,6 @@ import rubeus from '@assets/rubeus.webp'
 import uniAcademia from '@assets/uniLogo.webp'
 import devOps from '@assets/devopsday.webp'
 import techHub from '@assets/tech_hub.webp'
-import pdfUrl from '/SejaCode2024.pdf'
 
 
 export default function Partners() {
@@ -10,6 +9,7 @@ export default function Partners() {
   const tech = "https://techhubjf.org/"
   const rubeusUrl = "https://techhubjf.org/"
   const uniUrl = "https://www.uniacademia.edu.br/"
+  const pdfUrl = "https://drive.google.com/file/d/1r5g3w35pHYmwihWb2_CaHu-KhT76XdjZ/view?usp=sharing"
 
   return (
     <div id='6' className="w-full bg-black py-24 flex flex-col justify-center items-center gap-8 sm:gap-12">
