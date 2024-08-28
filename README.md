@@ -54,7 +54,7 @@ Confira o site oficial do evento [aqui](https://codexperience.com.br/).
 3. Inicie o servidor de desenvolvimento:
 
    ```bash
-   yarn start
+   yarn dev
    ```
 
 ## 📝 Contribuindo
