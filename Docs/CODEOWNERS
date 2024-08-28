@@ -1,0 +1,9 @@
+# Arquivo CODEOWNERS
+# Todos os arquivos são responsabilidade do usuário @username
+@FernandoSegregio
+
+# Usuários responsáveis por toda a pasta src/
+src/ @FernandoSegregio
+
+# Usuário responsável por arquivos de configuração
+/config/ @FernandoSegregio
