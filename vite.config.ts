@@ -6,7 +6,11 @@ import { VitePWA } from 'vite-plugin-pwa';
 import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
-  base: '/',
+  build: {
+    minify: 'terser',
+    sourcemap: false,
+  },
+    base: '/',
   plugins: [
     react(),
     svgr(),
@@ -69,7 +73,7 @@ export default defineConfig({
       },
     }),
     createCompressionPlugin({
-      algorithm: 'gzip', 
+      algorithm: 'gzip',
       threshold: 2400,
     }),
   ],
