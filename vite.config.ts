@@ -9,8 +9,12 @@ export default defineConfig({
   build: {
     minify: 'terser',
     sourcemap: false,
+    terserOptions: {
+      compress: true,
+      mangle: true,
+    },
   },
-    base: '/',
+  base: '/',
   plugins: [
     react(),
     svgr(),
@@ -73,7 +77,7 @@ export default defineConfig({
       },
     }),
     createCompressionPlugin({
-      algorithm: 'gzip',
+      algorithm: 'brotliCompress',
       threshold: 2400,
     }),
   ],

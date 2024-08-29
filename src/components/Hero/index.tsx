@@ -1,5 +1,7 @@
-import code from '@assets/code2023.webp';
 import logoCode from '@assets/logo_code.webp';
+import codeSmall from '@assets/small2023.webp';
+import codeMedium from '@assets/medium2023.webp';
+import codeLarge from '@assets/large2023.webp';
 import Header from '@components/Header';
 
 export default function Hero() {
@@ -7,16 +9,17 @@ export default function Hero() {
     <div id='1' className="w-full h-[39rem] relative flex flex-col items-center justify-center">
       <img
         src={logoCode}
-        className='absolute md:top-20 left-50 md:h-[600px] z-50'
+        className='absolute h-48 left-50 z-50 sm:h-[220px] md:top-52 md:h-[300px]'
         alt="Logo Code"
       />
       <Header />
       <div className='bg-black w-full h-full absolute opacity-60'></div>
       <img
-        src={code}
-        sizes="(max-width: 600px) 100vw, 50vw"
-        alt="Descrição da imagem"
-        loading='eager' 
+        src={codeMedium}
+        srcSet={`${codeSmall} 600w, ${codeMedium} 1200w, ${codeLarge} 1800w`}
+        sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        alt="Imagem codeXperience 2023"
+        // loading='lazy'
         className="object-cover w-full h-full"
       />
     </div>
