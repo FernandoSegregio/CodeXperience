@@ -34,10 +34,10 @@ export default function Footer() {
         title="feed Instragram CodeXperience"
         width="300"
         height="360"
-        frameBorder="0"
+        loading="lazy"
         scrolling="no"
-        loading='lazy'
-        className='rounded-lg md:w-96 md:h-96'
+        className="rounded-lg md:w-96 md:h-96 border-0"
+        sandbox="allow-same-origin allow-scripts"
       ></iframe>
     </div>
   )
