@@ -27,10 +27,10 @@ export default function Partners() {
           </p>
           <div className="w-2/3 flex flex-col justify-start py-2 sm:gap-2 sm:items-center sm:justify-center sm:flex-row sm:-ml-5 lg:gap-8 lg:w-full lg:-ml-8">
             <a href={uniUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
-              <img src={uniAcademia} alt="logo UniAcademia patrocinador platina" width={150} className="-ms-5 sm:w-[320px] sm:ms-0 lg:w-[250px] lg:h-[215px]" />
+              <img src={uniAcademia} alt="logo UniAcademia patrocinador platina" width={150} height={129} className="-ms-5 sm:w-[320px] sm:ms-0 lg:w-[250px] lg:h-[215px]" />
             </a>
             <a href={rubeusUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
-              <img src={rubeus} alt="logo Runeus patrocinador platina" width={120} className="sm:pb-5 sm:w-[350px] lg:h-[113.5px]" />
+              <img src={rubeus} alt="logo Runeus patrocinador platina" width={126} height={34} className="sm:pb-5 sm:w-[350px] lg:h-[113.5px]" />
             </a>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Partners() {
             <p className="text-[#7fa7a8] -rotate-90 w-48 h-[88px] -ml-5 flex justify-center items-center rounded-3xl text-xl md:text-3xl  font-bold">PARCEIROS</p>
             <div className="w-full flex flex-col justify-start items-start py-8 sm:items-center sm:justify-center sm:flex-row lg:gap-8 sm:w-full sm:-ml-8">
               <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={devops}>
-                <img src={devOps} alt="logo UniAcademia patrocinador platina" width={150} className="mt-5 sm:w-[300px] sm:h-[88px] sm:ms-0 sm:mt-0" />
+                <img src={devOps} alt="logo UniAcademia patrocinador platina" width={150} height={44} className="mt-5 sm:w-[300px] sm:h-[88px] sm:ms-0 sm:mt-0" />
               </a>
               <a className='cursor-pointer' href={tech} target='_blank' rel="noopener noreferrer">
                 <img src={techHub} alt="logo Runeus patrocinador platina" width={160} height={82} className="sm:w-[350px] sm:h-[198px] lg:pb-5" />
