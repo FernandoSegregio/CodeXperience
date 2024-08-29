@@ -16,6 +16,7 @@ export default function Hero() {
         src={code}
         sizes="(max-width: 600px) 100vw, 50vw"
         alt="Descrição da imagem"
+        loading='eager' 
         className="object-cover w-full h-full"
       />
     </div>

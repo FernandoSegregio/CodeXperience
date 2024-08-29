@@ -77,7 +77,7 @@ const MultiImageCarousel = () => {
             className="relative flex-shrink-0"
           >
              <div className="absolute inset-0 bg-[#431869] opacity-50"></div>
-            <img src={image} alt={`Slide ${index}`} className="object-cover w-[400px] h-[300px]" />
+            <img src={image} alt={`Slide ${index}`} className="object-cover w-[400px] h-[300px]" loading='lazy' />
           </div>
         ))}
       </div>

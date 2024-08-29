@@ -15,7 +15,7 @@ export default function Footer() {
     <div className='w-full flex flex-col justify-center items-center pb-12 md:py-24 bg-black text-white gap-4 lg:flex-row lg:gap-36'>
 
       <div className='flex flex-col justify-center items-center pb-12 gap-2'>
-        <img className='sm:w-[400px]' src={logoCode} alt='Logo codeXperience' width={246} />
+        <img className='sm:w-[400px] sm:h-[400px]' src={logoCode} alt='Logo codeXperience' width={246} height={246} />
         <div className='flex gap-3 justify-center items-center -mt-8 md:-mt-16 md:gap-5'>
           <a href={URL_INSTAGRAM} rel="noopener noreferrer">
             <img src={logoInsta} alt="instagram codeXperience" width={24} height={24} className='md:w-12' />
@@ -35,7 +35,7 @@ export default function Footer() {
         height="360"
         frameBorder="0"
         scrolling="no"
-        allowTransparency={true}
+        loading='lazy'
         className='rounded-lg md:w-96 md:h-96'
         title="Instagram feed"></iframe>
     </div>
