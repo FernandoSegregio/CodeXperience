@@ -9,7 +9,14 @@ import '/index.css';
 import Pass from '@components/Pass';
 import Parallax from '@components/Parallax';
 
-function App() {
+function App() { 
+
+  console.log(
+    '%c<< %cCodeXperience %c>>',
+    'font-size: 24px; color: #75fbfd; font-weight: bold;',
+    'font-size: 24px; color: #be73ed; font-weight: bold;', 
+    'font-size: 24px; color: #75fbfd; font-weight: bold;'
+  );
 
   return (
     <div
@@ -27,6 +34,7 @@ function App() {
       <Divider height={1} />
       <Footer />
     </div>
+
   )
 }
 
