@@ -52,7 +52,7 @@ export default function Header() {
 
                 </div>
                 <div className="hidden lg:block">
-                  <div className={
+                  <ul className={
                     classNames(scroll ? "backdrop-blur-sm bg-black/10 " : "", "top-4 flex space-x-4 p-2 bg-gray-800 rounded-lg bg-opacity-20 z-10")}>
                     {sectionsLP.map((session) => {
                       return (
@@ -71,7 +71,7 @@ export default function Header() {
                       );
                     })}
 
-                  </div>
+                  </ul>
                 </div>
               </div>
 
