@@ -20,10 +20,6 @@ export default defineConfig({
     svgr(),
     VitePWA({
       registerType: 'autoUpdate',
-      pwaAssets: {
-        disabled: false,
-        config: true,
-      },
       manifest: {
         id: '/',
         name: 'CodeXperience',
@@ -50,18 +46,87 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,webp}'],
         cleanupOutdatedCaches: true,
         clientsClaim: true,
         skipWaiting: true,
         runtimeCaching: [
           {
-            urlPattern: ({ url }) => {
-              return url.pathname.startsWith("/image");
+            urlPattern: ({ url }) => url.origin.includes('www.google.com'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'google-maps-cache',
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 24 * 60 * 60 * 30 * 2, // até o evento
+              },
             },
+          },
+          {
+            urlPattern: ({ url }) => url.origin.includes('instagram.com'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'instagram-cache',
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+              expiration: {
+                maxEntries: 20,
+                maxAgeSeconds: 24 * 60 * 60, // 1 dia
+              },
+            },
+          },
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith("/assets"),
             handler: "CacheFirst",
             options: {
-              cacheName: "runtime-cache",
+              cacheName: "image-cache",
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 dias
+              },
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
+          },
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith("/fonts"),
+            handler: "CacheFirst",
+            options: {
+              cacheName: "font-cache",
+              expiration: {
+                maxEntries: 20,
+                maxAgeSeconds: 365 * 24 * 60 * 60, // 1 ano
+              },
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
+          },
+          {
+            urlPattern: ({ url }) => /\.(?:css|js)$/.test(url.pathname),
+            handler: "StaleWhileRevalidate",
+            options: {
+              cacheName: "static-resources-cache",
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
+          },
+          {
+            urlPattern: ({ url }) => url.origin.includes('your-api-url.com'),
+            handler: "NetworkFirst",
+            options: {
+              cacheName: "api-cache",
+              networkTimeoutSeconds: 10, 
+              expiration: {
+                maxEntries: 30,
+                maxAgeSeconds: 24 * 60 * 60, // 1 dia
+              },
               cacheableResponse: {
                 statuses: [0, 200],
               },
