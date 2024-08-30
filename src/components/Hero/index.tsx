@@ -10,7 +10,7 @@ export default function Hero() {
     <div id='1' className="w-full h-[39rem] relative flex flex-col items-center justify-center">
       <img
         src={logoCodeSmall}
-        srcSet={`${logoCodeSmall} 400w, ${codeMedium} 600w`}
+        srcSet={`${logoCodeSmall} 400w, ${logoCode} 600w`}
         sizes="(max-width: 640px) 400px, 600px"
         className='absolute h-48 left-50 z-50 sm:h-[220px] md:top-52 md:h-[300px]'
         alt="Logo Code"
