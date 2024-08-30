@@ -36,7 +36,7 @@ export default function Footer() {
         height="360"
         loading="lazy"
         scrolling="no"
-        className="rounded-lg md:w-96 md:h-96 border-0"
+        className="hiddem rounded-lg sm:block md:w-96 md:h-96 border-0"
         sandbox="allow-same-origin allow-scripts"
       ></iframe>
     </div>
