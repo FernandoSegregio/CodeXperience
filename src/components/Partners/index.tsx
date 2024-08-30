@@ -55,18 +55,7 @@ export default function Partners() {
 
           </div>
         </div>
-        <div className="hidden flex-col sm:flex-row gap-8 md:gap-16 w-full">
-          <div className="md:w-1/2 h-72 rounded-3xl flex items-center border">
-            <p className="text-[#be73ed] -rotate-90 w-48 h-[88px] -ml-14 flex justify-center items-center rounded-3xl ext-xl md:text-4xl  font-bold">OURO</p>
-          </div>
-          <div className="md:w-1/2 h-72 rounded-3xl flex items-center border">
-            <p className="text-[#75fbfd] -rotate-90 w-48 h-[88px] -ml-14 flex justify-center items-center rounded-3xl ext-xl md:text-4xl  font-bold">PRATA</p>
-          </div>
-        </div>
         <div className="flex-col md:flex-row gap-8 md:gap-16 max-w-7xl w-full">
-          <div className="hidden md:w-1/2 h-56 rounded-3xl items-center border">
-            <p className="text-[#5b8277] -rotate-90 w-48 h-[88px] -ml-14 flex justify-center items-center rounded-3xl ext-xl md:text-4xl  font-bold">BRONZE</p>
-          </div>
           <div className="w-full h-56 rounded-3xl flex items-center border">
             <p className="text-[#7fa7a8] -rotate-90 w-48 h-[88px] -ml-5 flex justify-center items-center rounded-3xl text-xl md:text-3xl  font-bold">PARCEIROS</p>
             <div className="w-full flex flex-col justify-start items-start py-8 sm:items-center sm:justify-center sm:flex-row lg:gap-8 sm:w-full sm:-ml-8">
