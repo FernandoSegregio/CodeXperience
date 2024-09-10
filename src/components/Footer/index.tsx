@@ -9,7 +9,7 @@ export default function Footer() {
 
   const URL_LINKEDIN = 'https://www.linkedin.com/company/code-experience/'
   const URL_INSTAGRAM = 'https://www.instagram.com/codexperiencezonadamata/'
-  const URL_DISC = 'https://discord.gg/pv8GgT2T'
+  const URL_DISC = 'https://discord.gg/Zyeu2cCG'
 
   return (
     <div className='w-full flex flex-col justify-center items-center py-12 md:py-24 bg-black text-white gap-4 lg:flex-row lg:gap-36'>
