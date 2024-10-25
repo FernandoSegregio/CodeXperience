@@ -1,12 +1,3 @@
-import ava1 from '@assets/palestrantes/1.png'
-import ava2 from '@assets/palestrantes/2.png'
-import ava3 from '@assets/palestrantes/3.png'
-import ava4 from '@assets/palestrantes/4.png'
-import ava5 from '@assets/palestrantes/5.png'
-import ava6 from '@assets/palestrantes/6.png'
-import ava7 from '@assets/palestrantes/7.png'
-import ava8 from '@assets/palestrantes/8.png'
-import ava9 from '@assets/palestrantes/9.png'
 import ava10 from '@assets/palestrantes/10.png'
 import ava11 from '@assets/palestrantes/11.png'
 import ava12 from '@assets/palestrantes/12.png'
@@ -17,12 +8,19 @@ import ava16 from '@assets/palestrantes/16.png'
 import ava17 from '@assets/palestrantes/17.png'
 import ava18 from '@assets/palestrantes/18.png'
 import ava19 from '@assets/palestrantes/19.png'
+import ava2 from '@assets/palestrantes/2.png'
 import ava20 from '@assets/palestrantes/20.png'
+import ava3 from '@assets/palestrantes/3.png'
+import ava4 from '@assets/palestrantes/4.png'
+import ava5 from '@assets/palestrantes/5.png'
+import ava6 from '@assets/palestrantes/6.png'
+import ava7 from '@assets/palestrantes/7.png'
+import ava8 from '@assets/palestrantes/8.png'
+import ava9 from '@assets/palestrantes/9.png'
 
 
 
 export const talkers: Talker[] = [
-  { talker: ava1, id: 1, name: 'Alexandre Cabral', link: 'https://www.linkedin.com/in/alexandre-cabral-bedeschi/'},
   { talker: ava18, id: 18, name: 'Arthur Avelar', link: 'https://www.linkedin.com/in/arthur-avelar/'},
   { talker: ava2, id: 2, name: 'Cíntia Esteves', link: 'https://www.linkedin.com/in/cintia-esteves/'},
   { talker: ava4, id: 4, name: 'Brendo Freitas', link: 'https://www.linkedin.com/in/brendo-f-00b75416a/'},
