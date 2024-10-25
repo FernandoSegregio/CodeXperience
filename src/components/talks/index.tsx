@@ -57,7 +57,7 @@ export default function Talks() {
         <h3 className="text-white text-center text-2xl font-extrabold sm:text-6xl pb-6">Estão preparados?</h3>
        
       </div>
-      <h3 className="text-white text-center px-2 text-x sm:text-4xl max-w-72 sm:max-w-xl lg:max-w-5xl">
+      <h3 className="text-white text-center px-2 text-x sm:text-6xl max-w-72 sm:max-w-xl lg:max-w-5xl">
         Essas são feras que vão compartilhar conhecimento com a gente!
         </h3>
      
