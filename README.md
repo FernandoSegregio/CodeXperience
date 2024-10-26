@@ -85,5 +85,5 @@ Para mais informações, consulte o arquivo [LICENSE](LICENSE).
 
 ## 👥 Autores
 
-- **Fernando Segregio** - [LinkedIn](https://www.linkedin.com/in/fernandosegregio)
+- **Tech hub JF** - [LinkedIn](https://www.linkedin.com/company/tech-hub-jf/)
 

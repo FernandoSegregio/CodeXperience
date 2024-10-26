@@ -1,4 +1,3 @@
-import ava10 from '@assets/palestrantes/10.png'
 import ava11 from '@assets/palestrantes/11.png'
 import ava12 from '@assets/palestrantes/12.png'
 import ava13 from '@assets/palestrantes/13.png'
@@ -29,7 +28,6 @@ export const talkers: Talker[] = [
   { talker: ava7, id: 7, name: 'Danilo Santos', link: 'https://www.linkedin.com/in/danilo-oliveira-santos/'},
   { talker: ava8, id: 8, name: 'Emerson Pombo', link: 'https://www.linkedin.com/in/emerson-pombo/'},
   { talker: ava9, id: 9, name: 'Fabrício Lima', link: 'https://linkedin.com/in/fabriciooml/'},
-  { talker: ava10, id: 10, name: 'Felipe Rodrigues', link: 'https://www.linkedin.com/in/felipe-rodrigues-12732b235/'},
   { talker: ava12, id: 12, name: 'Higor e Maykon', link: 'https://www.linkedin.com/posts/code-experience_codexperiencezonadamata-activity-7250119616838991872-z_TA?utm_source=share&utm_medium=member_desktop'},
   { talker: ava13, id: 13, name: 'Humberto Almeida', link: 'https://www.linkedin.com/in/humbertosalesdealmeida/'},
   { talker: ava11, id: 11, name: 'Igor Nascimento', link: 'https://www.linkedin.com/in/igor-nascimento-a76a29155/'},
