@@ -1,4 +1,3 @@
-import ava10 from '@assets/palestrantes/10.png'
 import ava11 from '@assets/palestrantes/11.png'
 import ava12 from '@assets/palestrantes/12.png'
 import ava13 from '@assets/palestrantes/13.png'
