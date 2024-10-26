@@ -80,7 +80,7 @@ Este projeto está licenciado sob a Licença BSD de 2 Cláusulas.
   - A redistribuição do código fonte deve manter o aviso de copyright, esta lista de condições e o aviso de isenção de responsabilidade.
 - **Isenção de responsabilidade:** O software é fornecido "como está", sem garantias expressas ou implícitas, incluindo, mas não se limitando às garantias implícitas de comercialização e adequação para um propósito específico. Em nenhum caso o titular dos direitos autorais ou contribuintes serão responsáveis por quaisquer danos decorrentes do uso do software.
 
-Para mais informações, consulte o arquivo [LICENSE](LICENSE).
+Para mais informações, consulte o arquivo 2 [LICENSE](LICENSE).
 
 
 ## 👥 Autores
