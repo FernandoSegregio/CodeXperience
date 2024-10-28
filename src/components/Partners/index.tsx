@@ -23,7 +23,7 @@ export default function Partners() {
   const medeirosGourmetBuffetUrl = "https://www.instagram.com/medeirosgourmetbuffet/"
   const cafeDasMinasUrl = "https://www.instagram.com/cafe_das_minas/"
   const tech = "https://techhubjf.org/"
-  const rubeusUrl = "https://techhubjf.org/"
+  const rubeusUrl = "https://rubeus.com.br/"
   const uniUrl = "https://www.uniacademia.edu.br/"
   const pdfUrl = "https://drive.google.com/file/d/1r5g3w35pHYmwihWb2_CaHu-KhT76XdjZ/view?usp=sharing"
 
@@ -59,7 +59,7 @@ export default function Partners() {
                   src={rubeusSmall}
                   srcSet={`${rubeusSmall} 126w, ${rubeus} 350w`}
                   sizes="(max-width: 640px) 126px, 350px"
-                  alt="logo Runeus patrocinador platina"
+                  alt="logo Rubeus patrocinador platina"
                   className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
                 />
               </a>
@@ -70,7 +70,7 @@ export default function Partners() {
                   src={m3OculosSmall}
                   srcSet={`${m3OculosSmall} 126w, ${m3Oculos} 350w`}
                   sizes="(max-width: 640px) 126px, 350px"
-                  alt="logo Runeus patrocinador platina"
+                  alt="logo M3oculos patrocinador platina"
                   className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
                 />
               </a>
@@ -88,7 +88,7 @@ export default function Partners() {
                     src={elasticSmall}
                     srcSet={`${elasticSmall} 150w, ${elastic} 300w`}
                     sizes="(max-width: 640px) 150px, 300px"
-                    alt="logo UniAcademia patrocinador platina"
+                    alt="logo Elastic parceiro"
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
@@ -99,7 +99,7 @@ export default function Partners() {
                     src={devOpsSmall}
                     srcSet={`${devOpsSmall} 150w, ${devOps} 300w`}
                     sizes="(max-width: 640px) 150px, 300px"
-                    alt="logo UniAcademia patrocinador platina"
+                    alt="logo DevOpsDays JF parceiro"
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
@@ -110,7 +110,7 @@ export default function Partners() {
                     src={techHubSmall}
                     srcSet={`${techHubSmall} 160w, ${techHub} 350w`}
                     sizes="(max-width: 640px) 160px, 350px"
-                    alt="logo Runeus patrocinador platina"
+                    alt="logo Tech Hub parceiro"
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
@@ -121,7 +121,7 @@ export default function Partners() {
                     src={cafeDasMinasSmall}
                     srcSet={`${cafeDasMinasSmall} 160w, ${cafeDasMinas} 350w`}
                     sizes="(max-width: 640px) 160px, 350px"
-                    alt="logo Runeus patrocinador platina"
+                    alt="logo Café das Minas parceiro"
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
@@ -132,7 +132,7 @@ export default function Partners() {
                     src={medeirosGourmetBuffetSmall}
                     srcSet={`${medeirosGourmetBuffetSmall} 150w, ${medeirosGourmetBuffet} 300w`}
                     sizes="(max-width: 640px) 150px, 300px"
-                    alt="logo UniAcademia patrocinador platina"
+                    alt="logo Medeiros Gourmet Buffet parceiro"
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
