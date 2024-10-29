@@ -29,8 +29,4 @@ export const sectionsLP: SecttionType[] = [
     name_section: 'Parceiros',
     id: '6',
   },
-  {
-    name_section: 'Edição anterior',
-    id: '6',
-  },
 ]
