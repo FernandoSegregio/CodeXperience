@@ -127,7 +127,8 @@ const ScheduleTable: React.FC = () => {
           >
             <p className="text-lg font-semibold">{item.time}</p>
             <div>
-              { item.room1?.theme !== "Almoço" && item.room1?.theme !== "Coffee Break" && <p className="font-extrabold">Auditório Cobal</p>}
+              { item.room1?.theme !== "Almoço" && item.room1?.theme !== "Coffee Break" && 
+              <p className="font-extrabold">Auditório - Cobal</p>}
               <p className={` ${
               item.room1?.theme === "Almoço" && "bg-gray-600 font-bold"
             }`}>{item.room1?.theme}</p>
@@ -135,14 +136,14 @@ const ScheduleTable: React.FC = () => {
             </div>
             {item.room2 && item.room2?.theme !== '-' && (
               <div>
-                <p className="font-extrabold">Sala Fortran</p>
+                <p className="font-extrabold">Sala - Fortran</p>
                 <p className="">{item.room2.theme}</p>
                 {item.room2.speaker && <p className="text-gray-400">{item.room2.speaker}</p>}
               </div>
             )}
             {item.room3 && item.room3?.theme !== '-' && (
               <div>
-                <p className="font-extrabold">Sala Assembly</p>
+                <p className="font-extrabold">Sala - Assembly</p>
                 <p className="">{item.room3.theme}</p>
                 {item.room3.speaker && <p className="text-gray-400">{item.room3.speaker}</p>}
               </div>
