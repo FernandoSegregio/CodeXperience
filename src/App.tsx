@@ -8,6 +8,7 @@ import Talks from '@components/talks';
 import '/index.css';
 import Pass from '@components/Pass';
 import Parallax from '@components/Parallax';
+import ScheduleTable from '@components/Schedule';
 
 function App() { 
 
@@ -25,6 +26,7 @@ function App() {
       <Hero />
       <Countdown />
       <Talks />
+      <ScheduleTable />
       <Parallax />
       <Location />
       <Divider height={1} />
