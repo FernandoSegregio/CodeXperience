@@ -17,10 +17,10 @@ export const sectionsLP: SecttionType[] = [
     name_section: 'Inscrições',
     id: '3',
   },
-  // {
-  //   name_section: 'Programação',
-  //   id: '4',
-  // },
+  {
+    name_section: 'Programação',
+    id: '4',
+  },
   {
     name_section: 'Local',
     id: '5',
