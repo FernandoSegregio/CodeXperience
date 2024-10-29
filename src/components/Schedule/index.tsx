@@ -13,7 +13,7 @@ const schedule: ScheduleItem[] = [
   { time: "10:40", room1: { theme: "Coffee Break", speaker: "" } },
   { time: "11:10", room1: { theme: "Gerenciamento de Defeitos e Métricas de Qualidade", speaker: "Emerson Pombo" }, room2: { theme: "Containers - O Microcosmos do Linux", speaker: "Paulo Cerqueira" }, room3: { theme: "Ganhe Dinheiro Programando para Si", speaker: "Igor Nascimento" } },
   { time: "11:50", room1: { theme: "Como conseguir seu primeiro estágio, e ser desejado pelo mercado", speaker: "Tiago Gouvêa" }, room2: { theme: "DuckDB - O Patinho no Lago de Dados", speaker: "Danilo Oliveira Santos" }, room3: { theme: "A importância da inovação e tecnóloga em uma empresa do setor de serviços – Case EasyDr", speaker: "Nathan Vasconcellos" } },
-  { time: "12:30", room1: { theme: "Almoço", speaker: "" }, room2: { theme: "", speaker: "" }, room3: { theme: "" } },
+  { time: "12:30", room1: { theme: "Almoço", speaker: "" }, },
   { time: "14:00", room1: { theme: "ignite talks", speaker: "" } },
   { time: "14:20", room1: { theme: "Saúde Física e Mental: Vamos Recarregar Nossas Baterias", speaker: "Rafael Rocha Ribeiro" }, room2: { theme: "Analisando falhas de Segurança nas Aplicaçoes Web", speaker: "Brendo Freitas" }, room3: { theme: "O papel do Consultor no Mercado de Tecnologia", speaker: "Higor Silva Souza (Higor Souza) & Maykon Vieira" } },
   { time: "15:00", room1: { theme: "Construindo soluções para problemas que não existem - O ponto cego dos Devs", speaker: "Humberto Almeida" }, room2: { theme: "Criatividade, configure o seu ambiente", speaker: "Rafael Brasil" }, room3: { theme: "Modelagem Dimensional: O que tem no sangue das pessoas engenheiras de dados", speaker: "Fabrício Lima" } },
@@ -127,8 +127,10 @@ const ScheduleTable: React.FC = () => {
           >
             <p className="text-lg font-semibold">{item.time}</p>
             <div>
-              <p className="font-extrabold">Auditório Cobal</p>
-              <p className="">{item.room1?.theme}</p>
+              { item.room1?.theme !== "Almoço" && item.room1?.theme !== "Coffee Break" && <p className="font-extrabold">Auditório Cobal</p>}
+              <p className={` ${
+              item.room1?.theme === "Almoço" && "bg-gray-600 font-bold"
+            }`}>{item.room1?.theme}</p>
               {item.room1?.speaker && <p className="text-gray-400">{item.room1.speaker}</p>}
             </div>
             {item.room2 && item.room2?.theme !== '-' && (
