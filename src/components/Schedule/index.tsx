@@ -54,7 +54,7 @@ const ScheduleTable: React.FC = () => {
           <thead>
             <tr className="bg-gray-800">
               <th className="px-4 py-2 border border-green-500"></th>
-              <th className="px-4 py-2 border border-green-500">Auditório - Cobal</th>
+              <th className="px-4 py-2 border border-green-500">Auditório - Cobol</th>
               <th className="px-4 py-2 border border-green-500">Sala - Fortran</th>
               <th className="px-4 py-2 border border-green-500">Sala - Assembly</th>
             </tr>
@@ -128,7 +128,7 @@ const ScheduleTable: React.FC = () => {
             <p className="text-lg font-semibold">{item.time}</p>
             <div>
               { item.room1?.theme !== "Almoço" && item.room1?.theme !== "Coffee Break" && 
-              <p className="font-extrabold">Auditório - Cobal</p>}
+              <p className="font-extrabold">Auditório - Cobol</p>}
               <p className={` ${
               item.room1?.theme === "Almoço" && "bg-gray-600 font-bold"
             }`}>{item.room1?.theme}</p>
