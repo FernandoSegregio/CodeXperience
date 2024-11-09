@@ -1,4 +1,4 @@
-import Countdown from '@components/Countdown';
+// import Countdown from '@components/Countdown';
 import Divider from '@components/Divider';
 import Footer from '@components/Footer';
 import Hero from '@components/Hero';
@@ -24,7 +24,7 @@ function App() {
       style={{ paddingTop: 'env(safe-area-inset-top)', paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
       <Hero />
-      <Countdown />
+      {/* <Countdown /> */}
       <Talks />
       <ScheduleTable />
       <Parallax />
