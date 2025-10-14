@@ -15,8 +15,10 @@ import techHub from '@assets/tech_hub.webp'
 import devOpsSmall from '@assets/devopsSmall.webp'
 import techHubSmall from '@assets/tech_hubSmall.webp'
 
+import avatar from '@assets/patrocinadores/avatar-2.webp'
 
 export default function Partners() {
+
   const devops = "https://devopsdays.org/events/2024-juiz-de-fora/welcome/"
   const elasticUrl = "https://www.elastic.co/"
   const m3OculosUrl = "https://m3oculos.com.br/"
@@ -45,7 +47,39 @@ export default function Partners() {
             <div>
               <a href={uniUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
                 <img
-                  src={uniAcademiaSmall}
+                  src={avatar}
+                  srcSet={`${avatar} 150w, ${avatar} 250w`}
+                  sizes="(max-width: 640px) 150px, 250px"
+                  alt="logo UniAcademia patrocinador platina"
+                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
+                />
+              </a>
+            </div>
+            <div>
+              <a href={uniUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
+                <img
+                  src={avatar}
+                  srcSet={`${avatar} 150w, ${avatar} 250w`}
+                  sizes="(max-width: 640px) 150px, 250px"
+                  alt="logo UniAcademia patrocinador platina"
+                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
+                />
+              </a>
+            </div><div>
+              <a href={uniUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
+                <img
+                  src={avatar}
+                  srcSet={`${avatar} 150w, ${avatar} 250w`}
+                  sizes="(max-width: 640px) 150px, 250px"
+                  alt="logo UniAcademia patrocinador platina"
+                  className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
+                />
+              </a>
+            </div>
+            {/* <div>
+              <a href={uniUrl} className='cursor-pointer' target='_blank' rel="noopener noreferrer">
+                <img
+                  src={avatar}
                   srcSet={`${uniAcademiaSmall} 150w, ${uniAcademia} 250w`}
                   sizes="(max-width: 640px) 150px, 250px"
                   alt="logo UniAcademia patrocinador platina"
@@ -74,16 +108,72 @@ export default function Partners() {
                   className="mt-5 sm:max-w-[350px] sm:max-h-[250px] sm:ms-0 sm:mt-0"
                 />
               </a>
-            </div>
-            
+            </div>*/}
+
           </div>
         </div>
         <div className="flex-col md:flex-row gap-8 md:gap-16 max-w-7xl w-full">
           <div className="w-full rounded-3xl flex items-center border">
             <p className="text-[#7fa7a8] -rotate-90 w-48 -ml-5 flex justify-center items-center rounded-3xl text-xl md:text-3xl  font-bold">PARCEIROS</p>
             <div className='my-10 mx-10 h-2/3 max-w-72 items-center justify-center flex flex-wrap gap-16 md:max-w-7xl'>
-            <div>
-              <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={elasticUrl}>
+
+              <div>
+                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
+                  <img
+                    src={avatar}
+                    srcSet={`${avatar} 150w, ${avatar} 300w`}
+                    sizes="(max-width: 640px) 150px, 300px"
+                    alt="logo Medeiros Gourmet Buffet parceiro"
+                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+              <div>
+                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
+                  <img
+                    src={avatar}
+                    srcSet={`${avatar} 150w, ${avatar} 300w`}
+                    sizes="(max-width: 640px) 150px, 300px"
+                    alt="logo Medeiros Gourmet Buffet parceiro"
+                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+              <div>
+                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
+                  <img
+                    src={avatar}
+                    srcSet={`${avatar} 150w, ${avatar} 300w`}
+                    sizes="(max-width: 640px) 150px, 300px"
+                    alt="logo Medeiros Gourmet Buffet parceiro"
+                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+              <div>
+                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
+                  <img
+                    src={avatar}
+                    srcSet={`${avatar} 150w, ${avatar} 300w`}
+                    sizes="(max-width: 640px) 150px, 300px"
+                    alt="logo Medeiros Gourmet Buffet parceiro"
+                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+              <div>
+                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
+                  <img
+                    src={avatar}
+                    srcSet={`${avatar} 150w, ${avatar} 300w`}
+                    sizes="(max-width: 640px) 150px, 300px"
+                    alt="logo Medeiros Gourmet Buffet parceiro"
+                    className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
+                  />
+                </a>
+              </div>
+              {/*<div>
+                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={elasticUrl}>
                   <img
                     src={elasticSmall}
                     srcSet={`${elasticSmall} 150w, ${elastic} 300w`}
@@ -127,7 +217,7 @@ export default function Partners() {
                 </a>
               </div>
               <div>
-              <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
+                <a className='cursor-pointer' target='_blank' rel="noopener noreferrer" href={medeirosGourmetBuffetUrl}>
                   <img
                     src={medeirosGourmetBuffetSmall}
                     srcSet={`${medeirosGourmetBuffetSmall} 150w, ${medeirosGourmetBuffet} 300w`}
@@ -136,9 +226,8 @@ export default function Partners() {
                     className="mt-5 sm:max-w-[250px] sm:max-h-[150px] sm:ms-0 sm:mt-0"
                   />
                 </a>
-              </div>
+              </div>*/}
             </div>
-
           </div>
         </div>
       </div>
