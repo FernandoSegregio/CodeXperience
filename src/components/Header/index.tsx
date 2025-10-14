@@ -25,18 +25,18 @@ export default function Header() {
 
   const scrollToSection = (sectionId: string) => {
     const sectionElement = document.getElementById(sectionId);
-  
+
     if (sectionElement) {
       const elementPosition = sectionElement.getBoundingClientRect().top + window.pageYOffset;
       const offsetPosition = elementPosition - 30;
-  
+
       window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth',
       });
     }
   };
-  
+
 
   return (
     <Disclosure as="nav" className={
@@ -44,36 +44,61 @@ export default function Header() {
     >
       {({ open, close }) => (
         <>
-          <div
-          >
+          <div>
             <div className="flex h-24 items-center justify-end lg:justify-center">
               <div className="flex items-center">
-                <div className="flex-shrink-0">
-
+                <div className="flex-shrink-0"></div>
+                {/* ✅ BOTÃO MOBILE */}
+                <div className="block lg:hidden mr-2">
+                  <a
+                    href="https://codexperience.com.br/2024"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center px-3 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-md shadow-md text-sm hover:opacity-90 transition-all"
+                  >
+                    🚀 Veja como foi a EDIÇÃO 2024
+                  </a>
                 </div>
+                {/* ✅ MENU DESKTOP */}
                 <div className="hidden lg:block">
-                  <ul className={
-                    classNames(scroll ? "backdrop-blur-sm bg-black/10 " : "", "top-4 flex space-x-4 p-2 bg-gray-800 rounded-lg bg-opacity-20 z-10")}>
-                    {sectionsLP.map((session) => {
-                      return (
-                        <li onClick={(e) => {
-                          e.preventDefault()
-                          scrollToSection(session.id)
-                          close()
-                        }}
-                          className={`flex flex-col items-center px-4 py-2 rounded-lg text-white min-w-36 hover:bg-[#be73ed] transition duration-1000 ease-in-out cursor-pointer`}
-                          key={session.id}
-                        >
-                          <p className='flex items-center font-bold text-white'>
-                            {session.name_section.toUpperCase()}
-                          </p>
-                        </li>
-                      );
-                    })}
+                  <ul
+                    className={classNames(
+                      scroll ? "backdrop-blur-sm bg-black/10 " : "",
+                      "top-4 flex space-x-4 p-2 bg-gray-800 rounded-lg bg-opacity-20 z-10"
+                    )}
+                  >
+                    {/* Botão Desktop */}
+                    <li>
+                      <a
+                        href="https://codexperience.com.br/2024"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition-all"
+                      >
+                        🚀 Veja como foi a EDIÇÃO 2024
+                      </a>
+                    </li>
 
+                    {/* Itens do menu */}
+                    {sectionsLP.map((session) => (
+                      <li
+                        onClick={(e) => {
+                          e.preventDefault();
+                          scrollToSection(session.id);
+                          close();
+                        }}
+                        className="flex flex-col items-center px-4 py-2 rounded-lg text-white min-w-36 hover:bg-[#be73ed] transition duration-1000 ease-in-out cursor-pointer"
+                        key={session.id}
+                      >
+                        <p className="flex items-center font-bold text-white">
+                          {session.name_section.toUpperCase()}
+                        </p>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
+
 
               <div className="-mr-2 flex lg:hidden">
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-6 text-gray-400 ">
@@ -97,7 +122,6 @@ export default function Header() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-
             <Disclosure.Panel className="absolute top-0 right-0  w-1/2 h-full lg:hidden">
               <div className="space-y-1 h-screen">
                 <ul className='flex flex-col bg-black/80 transition duration-600 ease-in-out w-full h-full pt-3'>

@@ -10,7 +10,7 @@ interface TimeLeft {
 
 const Countdown: React.FC = () => {
   const calculateTimeLeft = (): TimeLeft => {
-    const eventDate = new Date('2024-11-09T12:00:00'); // Data do evento
+    const eventDate = new Date('2025-11-29T00:00:00'); // Data do evento
     const now = new Date();
     const difference = eventDate.getTime() - now.getTime();
 
