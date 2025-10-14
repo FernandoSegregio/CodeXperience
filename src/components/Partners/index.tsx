@@ -27,7 +27,7 @@ export default function Partners() {
   const tech = "https://techhubjf.org/"
   const rubeusUrl = "https://rubeus.com.br/"
   const uniUrl = "https://www.uniacademia.edu.br/"
-  const pdfUrl = "https://drive.google.com/file/d/1r5g3w35pHYmwihWb2_CaHu-KhT76XdjZ/view?usp=sharing"
+  const pdfUrl = "https://drive.google.com/file/d/1zhDkzJ1jQWMHU0KTvIKQdHtdRUDCOx2w/view?usp=sharing"
 
   return (
     <div id='6' className="w-full bg-black py-24 flex flex-col justify-center items-center gap-8 sm:gap-12">
