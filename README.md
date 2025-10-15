@@ -137,7 +137,7 @@ Trataremos a lista de novas funcionalidades e ajustes no design para a nova edi√
 - [] inserir imagens do evento
 - [x] proposta de apoio 2025 (apresentei para a VOL)
 - [] verificar google maps 
-- [ ] Quero a logo com 2025
+- [x] Quero a logo com 2025
 
 ### Remover
 
